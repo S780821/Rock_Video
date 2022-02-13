@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from driver.core import calls, bot, user
+from tools.core import calls, bot, user
 
 
 async def start_bot():
