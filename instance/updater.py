@@ -45,7 +45,7 @@ def updater():
         repo = Repo.init()
         origin = repo.create_remote("upstream", UPSTREAM_REPO)
         origin.fetch()
-        repo.create_head("main", origin.refs.main)
+        repo.create_head("xmarty", origin.refs.main)
         repo.heads.main.set_tracking_branch(origin.refs.main)
         repo.heads.main.checkout(True)
     ac_br = repo.active_branch.name
